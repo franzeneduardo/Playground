@@ -1,0 +1,62 @@
+#container {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+
+}
+
+.abertura {
+    position: relative;
+    min-width: 360px;
+    padding: 10px;
+    background-color: rgb(233, 233, 38);
+}
+
+.img-pikachu {
+    max-width: 125px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.centralizar {
+    text-align: center;
+    padding: 5px;
+}
+.conteudo{
+    position: absolute;
+    top: 210px;
+    max-width: 360px;
+    padding: 10px;
+    background-color: rgb(233, 233, 38);
+
+}
+.conteudo h2{
+    color:rgb(33, 152, 152);
+    text-decoration: underline;
+}
+.conteudo p {
+    color: rgb(53, 48, 48);
+    text-align: justify;
+    padding: 10px 5px 10px 0px;
+}
+.conteudo ul{
+    list-style-type: none;
+}
+.conteudo ul li{
+    color: rgb(53, 48, 48);
+    text-align: justify;
+}
+.final {
+    position: relative;
+}
+.final li {
+    margin: 0;
+    padding: 10px 0px 10px 30px;
+    list-style: none;
+    background-image: url("https://www.iconpacks.net/icons/1/free-badge-icon-1361-thumb.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size:30px;
+}
