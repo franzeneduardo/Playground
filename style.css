@@ -83,3 +83,20 @@
 .img-tabela{
     width: 100px;
 }
+
+.menu-site a{
+    width: 200px;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.menu-site a:hover {
+    background-color: #ccc;
+}
+
+.menu-site a.ativo{
+    background-color:gray;
+    color: blue;
+}
