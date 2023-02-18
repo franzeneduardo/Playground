@@ -4,21 +4,41 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Localização</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Localização</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <h1>Em Desenvolvimento, volte mais tarde :P</h1>
-        
-        <script src="" async defer></script>
-    </body>
+
+    <div class="localizacao">
+        <a href="index.html">Voltar</a>
+        <h1><img class="img-email" src="img/mail.png" alt="icone de e-mail">Contato e Localização</h1>
+        <hr>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.6788060929916!2d-51.19379898476085!3d-30.017377836978962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979c56c695555%3A0x7f47fbc7e1890349!2sTargetTrust!5e0!3m2!1spt-BR!2sbr!4v1676760223355!5m2!1spt-BR!2sbr"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Entre em contato conosco pelo e-mail: contato@auladehtml.com.br ou pelo formulário abaixo:</p>
+        <form action="">
+            <input class="formulario-contato" type="text" placeholder="Informe seu nome">
+            <input class="formulario-contato" type="email" placeholder="Informe seu e-mail">
+            <textarea name="mail" id="mail" cols="30" rows="10" placeholder="Digite a mensagem"></textarea>
+            <br>
+            <button>Enviar</button>
+        </form>
+    </div>
+
+    <script src="" async defer></script>
+</body>
+
 </html>

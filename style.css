@@ -26,7 +26,7 @@
 }
 .conteudo{
     position: absolute;
-    top: 210px;
+    top: 220px;
     max-width: 360px;
     padding: 10px;
     background-color: rgb(233, 233, 38);
@@ -99,4 +99,18 @@
 .menu-site a.ativo{
     background-color:gray;
     color: blue;
+}
+
+.localizacao{
+    margin: auto;
+    justify-content: center;
+    width: 400px;
+}
+
+.img-email{
+    width: 90px;
+}
+
+.formulario-contato{
+    margin: 10px 0px 10px 0px;
 }
