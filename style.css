@@ -60,3 +60,26 @@
     background-position: left center;
     background-size:30px;
 }
+
+#veiculos{
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.tb-veiculos{
+    width: 360px;
+    margin: 20px;
+}
+
+.tb-veiculos, th, td{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.tb-veiculos, tr{
+    height: 60px;
+}
+
+.img-tabela{
+    width: 100px;
+}
