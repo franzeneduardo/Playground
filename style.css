@@ -167,20 +167,13 @@ tr {
     clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
-
 .titulo-card{
     text-decoration: underline;
 }
 
 .descricao{
     margin: auto;
-    width: 600px;
+    max-width: 600px;
 }
 
 .descricao-titulo{
@@ -197,4 +190,11 @@ tr {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
