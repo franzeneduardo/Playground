@@ -1,8 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 #container {
     display: flex;
     justify-content: center;
     max-width: 400px;
     margin: auto;
+}
+
+#centralizar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .abertura {
@@ -20,7 +30,6 @@
 }
 
 .centralizar {
-    text-align: center;
     padding: 5px;
 }
 
@@ -144,11 +153,6 @@ tr {
     width: 320px;
 }
 
-
-* {
-    box-sizing: border-box;
-}
-
 /* Create three equal columns that floats next to each other */
 .column {
     float: left;
@@ -172,4 +176,25 @@ tr {
 
 .titulo-card{
     text-decoration: underline;
+}
+
+.descricao{
+    margin: auto;
+    width: 600px;
+}
+
+.descricao-titulo{
+    text-decoration: underline;
+    float: right;
+}
+
+.descricao-texto{
+    position: relative;
+    text-align: justify;
+}
+
+.img-descricao{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
