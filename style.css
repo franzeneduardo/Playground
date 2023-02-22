@@ -197,4 +197,7 @@ tr {
     .column {
         width: 100%;
     }
+    .descricao-titulo{
+        float: none;
+    }
 }
