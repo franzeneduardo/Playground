@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sistema de Editora</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <a href="index.html">Voltar</a>
+
+        <h1>Sistema de Editora 01.00.00</h1>
+
+        <hr>
+
+        <h2>Cadastrar Livros na base de dados</h2>
+
+        <form action="https://target-api-simples.cyclic.app/livros" method="POST">
+            <input type="text" name="title" id="" placeholder="Título do livro">
+            <input type="text" name="description" id="" placeholder="Descrição do livro">
+            <button>Mandar dados para a API</button>
+        </form>
+        <p>Este formulário irá enviar um comando POST para que a API faça o tabalho dela.</p>
+        <p>Neste caso, guardar na base de dados o que estamos enviando aqui.</p>
+
+        <hr>
+
+        <h2>Mostrar Livros já cadastrados</h2>
+        <form action="https://target-api-simples.cyclic.app/livros" method="GET">
+            <button>Pedir Livros para a API</button>
+        </form>
+        <p>Este formulário irá enviar um comando GET para que a API faça o trabalho dela.</p>
+        <p>Neste caso, buscar na base os dados que já estão guardados.</p>
+
+
+    <script src="" async defer></script>
+</body>
+
+</html>
