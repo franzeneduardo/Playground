@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: gray;
+    width: 70%;
+}
+
+
+header{
+    display: block;
+    background-color: red;
+    width: 100%;
+}
+h1, img{
+    display: inline-block;
+}
+
+header img{
+    width: 70px;
+    padding-right: 20px;
+    background-color: blue;
+}
+
+aside,main{
+    display: inline-block;
+    background-color: orange;
+    height: 300px;
+}
+aside{
+    width: 20%;
+}
+
+main{
+    width: 79%;
+}
