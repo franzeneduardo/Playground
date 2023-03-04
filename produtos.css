@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    background-color: rgb(180, 178, 178);
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+
+header img{
+    width: 50px;
+    padding-right: 20px;
+}
+
+header{
+    display: flex;
+}
+
+.produtos__titulo{
+    color: darkred;
+}

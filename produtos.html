@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cadastro de produtos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="produtos.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div class="principal">
+
+        <header>
+            <img  src="img/morango.jpeg" alt="Morango">
+            <h1 class="produtos__titulo">Cadastro de produtos:</h1>
+        </header>
+        <div>
+            <h3>Informe nos campos a seguir os dados do produto a ser cadastrado.</h3>
+            <form action="https://target-api-simples.cyclic.app/generica" method="post">
+                <input type="text" name="nome" id="" placeholder="Nome do Produto">
+                <input type="text" name="preco" id="" placeholder="Preço em R$">
+                <hr>
+                <input type="number" name="quantidade" id="" placeholder="Quantidade">
+                <select name="" id="" size="1">
+                    <option value="" disabled selected>Selecione a categoria</option>
+                    <option value="frutas">Frutas</option>
+                    <option value="verduras">Verduras</option>
+                    <option value="doces">Doces</option>
+                    <option value="salgados">Salgados</option>
+                </select>
+                <hr>
+                <button>Cadastrar</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="" async defer></script>
+</body>
+
+</html>
