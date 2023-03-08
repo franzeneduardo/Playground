@@ -22,6 +22,7 @@ async function executar() {
     document.getElementById("descricao").style.visibility = "initial"
 
     // 4 - Atribuir valores do personagem na tela
+    elementoDesconhecido = "Desconhecido"
     elementoImg.src = personagem.image
     elementoNome.innerHTML = personagem.name
     elementoStatus.innerHTML = personagem.status
@@ -36,6 +37,10 @@ async function executar() {
         elementoStatus.src = "img/rmskull.png"
     } else {
         elementoStatus.src = "img/rmunkow.png"
+    }
+
+    if(personagem.type == null || personagem.type == undefined || personagem.type == ""){
+        elementoTipo.innerHTML = elementoDesconhecido
     }
 
     // 4.2 - Mudar o atributo innerText da tag que guarda o nome do personagem
