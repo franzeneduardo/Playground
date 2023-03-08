@@ -49,6 +49,26 @@ header{
     text-align: center;
 }
 
+.descricao{
+    visibility: hidden;
+    border-top: 5px inset #A1140A;
+    border-bottom: 5px inset #160440;
+    border-right: 5px inset #08C952;
+    border-left: 5px inset #EDCF6B;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.tituloDadosPersonagem{
+    padding-left:10px;
+}
+.dadosPersonagem{
+    padding-left:40px;
+}
+
+
 @media screen and (max-width: 400px) {
     .headerPersonagem{
         text-align: center;

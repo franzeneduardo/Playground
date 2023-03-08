@@ -2,6 +2,8 @@ executar()
 
 // 0 - Adicionar evento em botão para executar contexto da função
 async function executar() {
+
+    
     // 1 - Pegar o valor digitado input (id do personagem)
     const elementoInput = document.getElementById("idPersonagem")// ! Substituir pelo valor do INPUT ! 
     const id = elementoInput.value
@@ -13,12 +15,19 @@ async function executar() {
     const elementoImg = document.getElementById("imgPersonagem")
     const elementoNome = document.getElementById("nomePersonagem")
     const elementoStatus = document.getElementById("statusPersonagem")
+    const elementoEspecie = document.getElementById("especiePersonagem")
+    const elementoTipo = document.getElementById("tipoPersonagem")
+    const elementoGenero = document.getElementById("generoPersonagem")
 
+    document.getElementById("descricao").style.visibility = "initial"
 
     // 4 - Atribuir valores do personagem na tela
     elementoImg.src = personagem.image
     elementoNome.innerHTML = personagem.name
     elementoStatus.innerHTML = personagem.status
+    elementoEspecie.innerHTML = personagem.species
+    elementoTipo.innerHTML = personagem.type
+    elementoGenero.innerHTML = personagem.gender
 
     // 4.1 - Mudar o atributo src da tag img
     if (personagem.status == "Alive") {
@@ -43,6 +52,7 @@ async function executar() {
 /* Função para fazer uma request GET para a API utilizando o JS 
    Veremos logo em seguida! Foquem na leitura do Objeto na função acima.
 */
+
 async function buscarPersonagemDaAPI(id) {
     const url = `https://rickandmortyapi.com/api/character/${id}`
 
