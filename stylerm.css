@@ -1,0 +1,50 @@
+body{
+    max-width: max-content;
+    margin: auto;
+}
+
+header{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    display: inline-block;
+
+}
+
+.imgRM{
+    width: 50px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.titulo__header{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nomePersonagem{
+    text-decoration: underline;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    vertical-align: super;
+}
+
+.statusPersonagem{
+    width: 50px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.imgPersonagemBox{
+    text-align: center;
+}
+
+.containerBusca{
+    text-align: center;
+}
+
