@@ -49,3 +49,11 @@ header{
     text-align: center;
 }
 
+@media screen and (max-width: 400px) {
+    .headerPersonagem{
+        text-align: center;
+    }
+    .imgPersonagem{
+        padding-top: 20px;
+    }
+}
