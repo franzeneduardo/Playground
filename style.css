@@ -151,6 +151,7 @@ tr {
 .imagem-pessoa {
     border-radius: 5px 5px 0 0;
     width: 320px;
+    height: 320px;
 }
 
 /* Create three equal columns that floats next to each other */
